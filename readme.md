@@ -20,13 +20,15 @@ If first time running the tool:
         To install: pip install psycopg2-binary (Note: venv must be activated)
 
     To create the local database:
-      py manage.py makemigrations
+      cd fps
       py manage.py migrate
     
     To collect all static files:
+      cd fps
       py manage.py collectstatic
     
     To run the app:
+      cd fps
       py manage.py runserver
     
       In the browser:
@@ -37,14 +39,17 @@ In the following times, just do this:
     Activate venv: name_of_virtual_environment\Scripts\activate.bat
     
     If changes were performed to the database schema:
-      python manage.py makemigrations
+      cd fps
+      py manage.py makemigrations
       py manage.py migrate
     
     If changes were performed to static files:
+      cd fps
       py manage.py collectstatic
     
     To run the app:
-    py manage.py runserver
-    
-      In the browser:
-      http://127.0.0.1:8000/
+        cd fps
+        py manage.py runserver
+        
+          In the browser:
+          http://127.0.0.1:8000/
