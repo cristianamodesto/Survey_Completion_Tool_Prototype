@@ -21,6 +21,7 @@ If first time running the tool:
 
     To create the local database:
       cd fps
+      py manage.py makemigrations
       py manage.py migrate
     
     To collect all static files:
