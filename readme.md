@@ -24,11 +24,9 @@ If first time running the tool:
       py manage.py migrate
     
     To collect all static files:
-      cd fps
       py manage.py collectstatic
     
     To run the app:
-      cd fps
       py manage.py runserver
     
       In the browser:
