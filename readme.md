@@ -34,7 +34,7 @@ If first time running the tool:
       In the browser:
       http://127.0.0.1:8000/
       
-In the following times, just do this:
+In the following times:
 
     Activate venv: name_of_virtual_environment\Scripts\activate.bat
     
